@@ -10,8 +10,24 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
     const fadeDiv = document.querySelector(".main-center-2");
     const scrollY = window.scrollY;
-    const fadeStart = 50;
-    const fadeEnd = 400;
+    const fadeStart = 300;
+    const fadeEnd = 500;
+
+    if (scrollY < fadeStart) {
+        fadeDiv.style.opacity = 0;
+    } else if (scrollY > fadeEnd) {
+        fadeDiv.style.opacity = 1;
+    } else {
+        const newOpacity = (scrollY - fadeStart) / (fadeEnd - fadeStart);
+        fadeDiv.style.opacity = newOpacity;
+    }
+});
+
+window.addEventListener("scroll", () => {
+    const fadeDiv = document.querySelector(".main-center-3");
+    const scrollY = window.scrollY;
+    const fadeStart = 1200;
+    const fadeEnd = 1500;
 
     if (scrollY < fadeStart) {
         fadeDiv.style.opacity = 0;
@@ -32,20 +48,4 @@ insta.addEventListener("click", () => {
 
 github.addEventListener("click", () => {
     window.open("https://github.com/Dev-KimDonghyun", "_blank");
-});
-
-window.addEventListener("scroll", () => {
-    const fadeDiv = document.querySelector(".main-center-3");
-    const scrollY = window.scrollY;
-    const fadeStart = 50;
-    const fadeEnd = 400;
-
-    if (scrollY < fadeStart) {
-        fadeDiv.style.opacity = 0;
-    } else if (scrollY > fadeEnd) {
-        fadeDiv.style.opacity = 1;
-    } else {
-        const newOpacity = (scrollY - fadeStart) / (fadeEnd - fadeStart);
-        fadeDiv.style.opacity = newOpacity;
-    }
 });

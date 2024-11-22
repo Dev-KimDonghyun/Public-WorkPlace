@@ -105,6 +105,8 @@ p {
     right: 125px;
 }
 
+/* 2페이지 */
+
 .main-center-2 {
     width: 1080px;
     height: 700px;
@@ -219,9 +221,11 @@ p {
     width: 50%;
 }
 
+/* 3페이지 */
+
 .main-center-3 {
     width: 1080px;
-    height: 700px;
+    height: 2400px;
     margin: 80px auto 80px auto;
     background-color: #DCDCDC;
     box-shadow: 5px 5px 10px #bbbbbb, -5px -5px 10px #fdfdfd;
@@ -231,4 +235,23 @@ p {
     border-radius: 70px;
     opacity: 0;
     transition: opacity 1s ease;
+}
+
+.main-container-3 {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.project-title {
+    position: relative;
+    font-size: 50px;
+    margin-top: 30px;
+    background: linear-gradient(45deg, #3c77ff 0%, #b36cff 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }

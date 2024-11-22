@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=M+PLUS+1p:wght@700&family=Mochiy+Pop+One&family=Noto+Sans+KR:wght@300&family=Song+Myung&display=swap');@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Mochiy+Pop+One&family=Noto+Sans+KR:wght@300&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=M+PLUS+1p&family=Mochiy+Pop+One&family=Noto+Sans+KR:wght@300&family=Song+Myung&display=swap');
+
+body {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    background-color: #eff6ff;
+}
+
+h1 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: gray;
+    margin-top: 100px;
+}
+
+.languageSelectorBox {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+.languageSelector {
+    height: 30px;
+    width: 75px;
+}
+
+.languageSelectorLabel {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comment, .outputBox {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+
+.inputYear {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    height: 45px;
+    width: 360px;
+    font-size: 25px;
+    margin-right: 8px;
+    border: 2px solid #ccc;
+}
+
+.input {
+    margin-top: 50px;
+}
+
+.inputButton {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    height: 52px;
+    width: 135px;
+    font-size: 25px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.1s;
+    background-color: #C1C1C1;
+}
+
+button:active {
+  background-color: #A4A4A4;
+  transform: scale(0.95);
+}
+
+.outputBox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: center;
+    bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+    
+    h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        color: gray;
+    }
+    
+    .comment, .outputBox {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: black;
+    }
+    
+    .inputYear {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        text-align: center;
+        height: 36px;
+        width: 288px;
+        font-size: 20px;
+        margin-right: 6px;
+        border: 2px solid #ccc;
+    }
+    
+    .input {
+        margin-top: 50px;
+    }
+    
+    .inputButton {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        text-align: center;
+        height: 42px;
+        width: 108px;
+        font-size: 20px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        transition: background-color 0.1s, transform 0.1s;
+        background-color: #C1C1C1;
+    }
+    
+    button:active {
+      background-color: #A4A4A4;
+      transform: scale(0.95);
+    }
+    
+    .outputBox {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+.open {
+    font-size: 30px;
+    border: 0;
+    background-color: transparent;
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    z-index: 50;
+}
+
+.open:active {
+    transform: scale(0.95);
+    background-color: transparent;
+}
+
+.side {
+    transform: translateX(-100%);
+    transition: transform 0.7s ease;
+    height: 100%;
+    position: fixed;
+    background-color: #e8ebf4;
+    z-index: 100; 
+    width: 200px;
+    margin-top: -100px;
+}
+
+.showSidebar {
+    transform: translateX(0);
+}
+
+.close {
+    font-size: 30px;
+    border: 0;
+    background-color: white;
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.close:active {
+    transform: scale(0.95);
+    background-color: transparent;
+}
+
+.titleSide, .developerName {
+    font-size: 20px;
+    border: 0;
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.developerEmail {
+    margin-top: -15px;
+    font-size: 15px;
+    border: 0;
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.developedWho {
+    font-size: 15px;
+    border: 0;
+    font-family: "M PLUS 1p", sans-serif;
+    color: black;
+    text-align: center;
+    bottom: 10px;
+    position: fixed
+}
