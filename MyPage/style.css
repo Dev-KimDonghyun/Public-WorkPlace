@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Gowun+Batang:wght@400;700&family=Lexend:wght@100..900&family=M+PLUS+1p:wght@500&family=Mochiy+Pop+One&family=Noto+Sans+KR:wght@100..900&family=Song+Myung&display=swap');
+
+body {
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+.main {
+    width: 720px;
+    height: 360px;
+    margin: 0 auto;
+    background-color: #D3D3D3;
+    z-index: 1;
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 240px;
+    background: linear-gradient(45deg, #3c77ff 0%, #b36cff 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: -50px;
+    text-align: center;
+    background: linear-gradient(45deg, #3c77ff 0%, #b36cff 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me {
+    z-index: 50;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px #b3b3b3, -5px -5px 10px #f3f3f3;
+    background-color: #D3D3D3;
+    color: #b36cff;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.about-me:active {
+    box-shadow: inset 5px 5px 10px #b3b3b3, inset -5px -5px 10px #f3f3f3;
+    color: #9c5ddf;
+}

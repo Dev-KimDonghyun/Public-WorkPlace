@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Gowun+Batang:wght@400;700&family=Lexend:wght@500&family=M+PLUS+1p:wght@500&family=Mochiy+Pop+One&family=Noto+Sans+KR:wght@100..900&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+.main-center {
+    width: 1080px;
+    height: 700px;
+    margin: 40px auto 40px auto;
+    background-color: #DCDCDC;
+    box-shadow: 5px 5px 10px #bbbbbb, -5px -5px 10px #fdfdfd;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    position: relative;
+    border-radius: 70px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+p {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hello-1 {
+    position: absolute;
+    font-size: 45px;
+    margin-top: 230px;
+    margin-left: 100px;
+    text-align: left;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.hello-point {
+    background: linear-gradient(45deg, #3c77ff 0%, #b36cff 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+.hello-2 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 345px;
+    text-align: left;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.JavaScript-Logo {
+    position: relative;
+    top: 190px;
+    left: 350px;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.JavaScript-Logo:hover {
+    transform: scale(1.1);
+}
+
+.Instagram-Logo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 155px;
+    right: 540px;
+    cursor: pointer;
+}
+
+.Github-Logo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 155px;
+    right: 535px;
+    cursor: pointer;
+}
+
+.my-mail {
+    position: relative;
+    font-size: 30px;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    top: 77.5px;
+    right: 125px;
+}
+
+.main-center-2 {
+    width: 1080px;
+    height: 700px;
+    margin: 80px auto 80px auto;
+    background-color: #DCDCDC;
+    box-shadow: 5px 5px 10px #bbbbbb, -5px -5px 10px #fdfdfd;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    position: relative;
+    border-radius: 70px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.main-container-2 {
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    margin-top: 30px;
+}
+
+.my-title {
+    position: relative;
+    font-size: 50px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #3c77ff 0%, #b36cff 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.stack-container {
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.stack-sub-1 {
+    position: absolute;
+    width: 96%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.stack-sub-2 {
+    position: absolute;
+    margin-top: 255px;
+    width: 96%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.stack {
+    position: absolute;
+    width: 320px;
+    height: 240px;
+    border-radius: 40px;
+    background-color: #DCDCDC;
+    box-shadow: 5px 5px 10px #bbbbbb, -5px -5px 10px #fdfdfd;
+    transition: transform 0.5s ease, background-color 0.25s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack:hover {
+    transform: scale(0.95);
+    background-color: #c9c9c9;
+}
+
+#one {
+    margin-right: 670px;
+}
+
+#three {
+    margin-left: 670px;
+}
+
+#four {
+    margin-right: 670px;
+}
+
+#six {
+    margin-left: 670px;
+}
+
+.logos {
+    position: absolute;
+    max-width: 190px;
+    max-height: 190px;
+}
+
+#CSS_logo {
+    position: absolute;
+    height: 70%;
+}
+
+#MySQL_logo {
+    position: absolute;
+    height: 70%;
+}
+
+#PHP_logo {
+    position: absolute;
+    width: 50%;
+}
+
+.main-center-3 {
+    width: 1080px;
+    height: 700px;
+    margin: 80px auto 80px auto;
+    background-color: #DCDCDC;
+    box-shadow: 5px 5px 10px #bbbbbb, -5px -5px 10px #fdfdfd;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    position: relative;
+    border-radius: 70px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
