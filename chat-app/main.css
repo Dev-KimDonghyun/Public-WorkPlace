@@ -1,0 +1,84 @@
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #27272c;
+}
+  
+.mainTitle {
+    position: relative;
+    padding: 0;
+    border: 0;
+    background-color: #141416;
+    height: 70px;
+    color: azure;
+    z-index: 10;
+}
+  
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+  
+h2 {
+    margin: 0;
+    font-size: 50px;
+}
+  
+.subContainer {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    width: 1280px;
+    background-color: aquamarine;
+    z-index: 0;
+}
+  
+.friendsContainer {
+    position: absolute;
+    float: left;
+    background-color: blue;
+    width: 270px;
+    height: 100%;
+}
+  
+.typingContainer {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: blue;
+    width: 1010px;
+    height: 60px;
+}
+  
+.inputMessgae {
+    position: absolute;
+    width: 900px;
+    height: 40px;
+    margin-top: 10px;
+    left: 5px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding-left: 12.5px;
+}
+  
+.inputBtn {
+    position: absolute;
+    width: 75px;
+    height: 42px;
+    right: 8.5px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding-left: 12.5px;
+}
